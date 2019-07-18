@@ -4,7 +4,7 @@ import requests
 from pkg_resources import parse_version
 from toggle.__init__ import __version__
 
-URL = "https://api.github.com/repos/intelligent-agent/toggle/releases/latest"
+URL = "https://api.github.com/repos/eliasbakken/toggle/releases/latest"
 
 
 def get_local_version():
